@@ -23,11 +23,13 @@ section {
   position: relative;
   top: 15%;
   width: 100vw;
-  height: 300px;
+  min-height: 280px;
+  height: auto;
 }
 
 section > .container {
-  height: 280px;
+  min-height: 280px;
+  height: auto;
   width: 270px;
   text-align: center;
   position: relative;
