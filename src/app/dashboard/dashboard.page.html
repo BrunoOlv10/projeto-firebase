@@ -1,0 +1,12 @@
+<ion-content class="conteudo" [fullscreen]="true">
+  <img src="../../assets/logo/gefy.png" class="logo" alt="logo gefy">
+  <section>
+    <div class="container">
+      <div class="container-img">
+        <img src="{{this.user?.photoURL}}" alt="avatar">
+      </div>
+      <h1>Olá, {{this.user?.displayName}}</h1>
+      <ion-button class="signOut" expand="block" (click)="this.authService.signOut()">Sair</ion-button>
+    </div>
+  </section>
+</ion-content>

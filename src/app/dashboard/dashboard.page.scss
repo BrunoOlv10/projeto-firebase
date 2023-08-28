@@ -1,0 +1,79 @@
+ion-content {
+  --background: white;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+img.logo {
+  height: 60px;
+  width: 100px;
+  margin-top: 50px;
+}
+
+img.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+  width: 100vw;
+  height: 280px;
+}
+
+section > .container {
+  height: 280px;
+  width: 270px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 3px solid #8F00FF;
+  background-color: rgba(214, 214, 214, 0.697);
+  border-radius: 10px;
+}
+
+section > .container > .container-img {
+  margin: auto;
+  height: 120px;
+  width: 110px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+section > .container > .container-img > img {
+  position: relative;
+  top: 5%;
+  width: 96px;
+  height: auto;
+  border-radius: 100%;
+  border: 2px solid #8F00FF;
+  margin-top: 10px;
+}
+
+section > .container > .container-img > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+h1 {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 55px;
+}
+
+h1:hover {
+  color: #8F00FF;
+  transition: 0.5s;
+}
+
+.signOut {
+  margin: auto;
+  --background: #8F00FF;
+  width: 200px;
+}
